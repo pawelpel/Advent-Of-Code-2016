@@ -100,10 +100,7 @@ def solve(input_):
 def main():
 
     number_of_bloks_away = solve(fromat_input(input_raw))
-
     print('Ester Bunny is {} blocks away!'.format(number_of_bloks_away))
-
-    return number_of_bloks_away
 
 
 if __name__ == '__main__':
