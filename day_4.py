@@ -25,7 +25,6 @@ Of the real rooms from the list above, the sum of their sector IDs is 1514.
 """
 
 import re
-import operator
 import string
 from collections import Counter
 
