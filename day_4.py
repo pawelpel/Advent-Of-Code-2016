@@ -39,9 +39,7 @@ def check_room(room):
         if string.ascii_lowercase.index(b[0]) > string.ascii_lowercase.index(a[0]):
             if a[1] == b[1]:
                 return -1
-            return 0
-        else:
-            return 0
+        return 0
 
     c = Counter(name)
 
