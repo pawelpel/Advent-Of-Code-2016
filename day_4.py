@@ -92,3 +92,6 @@ if __name__ == '__main__':
         check_room('not-a-real-room-404[oarel]')
         check_room('totally-real-room-200[decoy]')
 
+"""
+    Sum of valid rooms' ids is 173787
+"""
