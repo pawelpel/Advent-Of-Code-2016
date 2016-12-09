@@ -33,12 +33,12 @@ def main():
     counter = 0
 
     with open('day_7_data.txt', 'r') as data:
-        for da in data:
 
+        pattern = re.compile(r'(\w)(\w)\2\1')
+
+        for da in data:
             is_found_in_brackets = False
             is_found_in_text = False
-
-            pattern = re.compile(r'(\w)(\w)\2\1')
 
             da = da.replace('\n', '')
             in_brackets = re.findall(r'\[(\w+)\]', da)
