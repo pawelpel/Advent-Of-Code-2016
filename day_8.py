@@ -107,7 +107,6 @@ def main():
                         displayer[row][which] = tmp[row]
 
                 elif axis == 'y':
-
                     tmp = deque(displayer[which])
                     tmp.rotate(by)
                     displayer[which] = tmp
